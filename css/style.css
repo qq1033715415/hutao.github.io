@@ -408,7 +408,14 @@ section.skills .tech-stack > ul > li li {
     }
 }
 
+@media screen and (max-width: 500px) {
+    section.skills {
+        padding: 0px 30px;
+    }
+}
+
 @media screen and (max-width: 485px) {
+
     section.skills .tech-stack > ul > li li {
         font-size: 13px
     }
