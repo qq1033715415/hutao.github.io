@@ -1,6 +1,6 @@
 * {
     margin: 0;
-    padding: 0
+    padding: 0;
 }
 
 html, body {
@@ -12,75 +12,75 @@ html, body {
 
 body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td, img {
     padding: 0;
-    margin: 0
+    margin: 0;
 }
 
 ol, li {
-    list-style-type: none
+    list-style-type: none;
 }
 
 ::selection {
     background: #dddedc;
-    color: black
+    color: black;
 }
 
 @keyframes textPopup {
     0%, 100% {
-        opacity: 0
+        opacity: 0;
     }
     5% {
-        opacity: 1
+        opacity: 1;
     }
     100% {
-        transform: translateY(-50px)
+        transform: translateY(-50px);
     }
 }
 
 @-webkit-keyframes textPopup {
     0%, 100% {
-        opacity: 0
+        opacity: 0;
     }
     5% {
-        opacity: 1
+        opacity: 1;
     }
     100% {
-        transform: translateY(-50px)
+        transform: translateY(-50px);
     }
 }
 
 @-moz-keyframes textPopup {
     0%, 100% {
-        opacity: 0
+        opacity: 0;
     }
     5% {
-        opacity: 1
+        opacity: 1;
     }
     100% {
-        transform: translateY(-50px)
+        transform: translateY(-50px);
     }
 }
 
 @-ms-keyframes textPopup {
     0%, 100% {
-        opacity: 0
+        opacity: 0;
     }
     5% {
-        opacity: 1
+        opacity: 1;
     }
     100% {
-        transform: translateY(-50px)
+        transform: translateY(-50px);
     }
 }
 
 @-o-keyframes textPopup {
     0%, 100% {
-        opacity: 0
+        opacity: 0;
     }
     5% {
-        opacity: 1
+        opacity: 1;
     }
     100% {
-        transform: translateY(-50px)
+        transform: translateY(-50px);
     }
 }
 
@@ -95,7 +95,7 @@ ol, li {
     user-select: none;
     white-space: nowrap;
     position: absolute;
-    z-index: 99
+    z-index: 99;
 }
 
 .content {
@@ -103,13 +103,13 @@ ol, li {
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%
+    height: 100%;
 }
 
 .page {
     position: relative;
     width: 100%;
-    height: 100%
+    height: 100%;
 }
 
 .page::after {
@@ -124,30 +124,30 @@ ol, li {
     filter: blur(3px);
     -webkit-filter: blur(3px);
     -moz-filter: blur(3px);
-    -ms-filter: blur(3px)
+    -ms-filter: blur(3px);
 }
 
 .page0 {
-    background: #8998c0 url(../img/bg1.jpg) no-repeat center center / 100% 100%
+    background: #8998c0 url(../img/bg1.jpg) no-repeat center center / 100% 100%;
 }
 
 .page1 {
     position: absolute;
     top: 100%;
     left: 100%;
-    background: #fae371 url(../img/bg2.jpg) no-repeat center center / 100% 100%
+    background: #fae371 url(../img/bg2.jpg) no-repeat center center / 100% 100%;
 }
 
 .page2 {
     position: absolute;
     top: 200%;
     left: 100%;
-    background: deepskyblue url(../img/bg3.jpg) no-repeat center center / 100% 100%
+    background: deepskyblue url(../img/bg3.jpg) no-repeat center center / 100% 100%;
 }
 
 .page3 {
     position: relative;
-    background: bisque
+    background: bisque;
 }
 
 .content-intr {
@@ -162,11 +162,11 @@ ol, li {
     perspective: 300px;
     box-sizing: border-box;
     text-align: center;
-    z-index: 2
+    z-index: 2;
 }
 
 .page0 .content-intr > h1 {
-    color: #adff2f
+    color: #adff2f;
 }
 
 .page0 .content-intr > h2 {
@@ -174,20 +174,20 @@ ol, li {
     height: 80px;
     margin: 0 auto;
     text-align: center;
-    color: #ffdab9
+    color: #ffdab9;
 }
 
 .page0 .content-intr > h2 > em {
     float: left;
     font-size: 50px;
     line-height: 80px;
-    font-style: normal
+    font-style: normal;
 }
 
 .page0 .content-intr > h3 {
     margin-top: 10px;
     font-size: 20px;
-    color: #333
+    color: #333;
 }
 
 .page0 ul.content-label {
@@ -207,7 +207,7 @@ ol, li {
 
 .page0 ul.content-label > li > img {
     width: 100%;
-    height: 100%
+    height: 100%;
 }
 
 .page0 ul.content-label > li span {
@@ -219,11 +219,11 @@ ol, li {
     text-shadow: 1px 1px 1px rgba(232, 44, 44, 0.93);
     background-color: rgba(176, 196, 222, .7);
     transform: translateY(-105px) scale(0);
-    transition: .5s
+    transition: .5s;
 }
 
 .page0 ul.content-label > li:hover span {
-    transform: translateY(-105px) scale(1)
+    transform: translateY(-105px) scale(1);
 }
 
 .page0 ul.content-label > b {
@@ -231,97 +231,97 @@ ol, li {
     -ms-animation: shan .8s infinite alternate;
     -webkit-animation: shan .8s infinite alternate;
     -o-animation: shan .8s infinite alternate;
-    -moz-animation: shan .8s infinite alternate
+    -moz-animation: shan .8s infinite alternate;
 }
 
 @keyframes shan {
     from {
-        opacity: 0
+        opacity: 0;
     }
     to {
-        opacity: 1
+        opacity: 1;
     }
 }
 
 @-webkit-keyframes shan {
     from {
-        opacity: 0
+        opacity: 0;
     }
     to {
-        opacity: 1
+        opacity: 1;
     }
 }
 
 @-ms-keyframes shan {
     from {
-        opacity: 0
+        opacity: 0;
     }
     to {
-        opacity: 1
+        opacity: 1;
     }
 }
 
 @-moz-keyframes shan {
     from {
-        opacity: 0
+        opacity: 0;
     }
     to {
-        opacity: 1
+        opacity: 1;
     }
 }
 
 @-o-keyframes shan {
     from {
-        opacity: 0
+        opacity: 0;
     }
     to {
-        opacity: 1
+        opacity: 1;
     }
 }
 
 @media screen and (max-width: 970px) {
     .content-intr {
         width: 700px;
-        margin-left: -350px
+        margin-left: -350px;
     }
 }
 
 @media screen and (max-width: 750px) {
     .content-intr {
         width: 500px;
-        margin-left: -250px
+        margin-left: -250px;
     }
 
     .page0 .content-intr > h1 {
-        font-size: 25px
+        font-size: 25px;
     }
 
     .page0 .content-intr > h3 {
-        font-size: 20px
+        font-size: 20px;
     }
 }
 
 @media screen and (max-width: 500px) {
     .content-intr {
         width: 300px;
-        margin-left: -150px
+        margin-left: -150px;
     }
 
     .page0 .content-intr > h1 {
-        font-size: 16px
+        font-size: 16px;
     }
 
     .page0 .content-intr > h2 {
-        width: 300px
+        width: 300px;
     }
 
     .page0 .content-intr > h2 > em {
         float: none;
-        font-size: 18px
+        font-size: 18px;
     }
 
     .page0 .content-intr > h3 {
-        font-size: 16px
+        font-size: 16px;
     }
 }
 
@@ -333,43 +333,43 @@ section.skills {
     z-index: 2;
     background-color: rgba(245, 255, 250, .5);
     box-shadow: 0 1px 5px 0 rgba(0, 0, 0, .5);
-    box-sizing: border-box
+    box-sizing: border-box;
 }
 
 section.skills > h2 {
     text-align: center;
-    margin-bottom: 5px
+    margin-bottom: 5px;
 }
 
 section.skills .tech-stack > h3 {
     font-size: 19px;
     color: #574abb;
     margin: 0 0 15px 5px;
-    font-weight: bold
+    font-weight: bold;
 }
 
 section.skills .tech-stack h4 {
     line-height: 30px;
     font-size: 18px;
     font-weight: bold;
-    color: #000
+    color: #000;
 }
 
 section.skills .tech-stack > ul {
     border-left: 2px solid #7e6efc;
-    margin-left: 15px
+    margin-left: 15px;
 }
 
 section.skills .tech-stack > ul > li {
     position: relative;
     top: -5px;
-    margin: 0 0 7px 20px
+    margin: 0 0 7px 20px;
 }
 
 section.skills .tech-stack > ul > li li {
     line-height: 1.2;
     list-style: disc;
-    margin-left: 2em
+    margin-left: 2em;
 }
 
 .circle {
@@ -380,53 +380,73 @@ section.skills .tech-stack > ul > li li {
     height: 14px;
     width: 14px;
     border-radius: 100%;
-    background: #7e6efc
+    background: #7e6efc;
+}
+
+@media screen and (max-width: 992px) {
+    section.skills {
+        padding: 9px 30px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    section.skills {
+        padding: 9px 30px;
+    }
 }
 
 @media screen and (max-width: 670px) {
+    section.skills {
+        padding: 25px 30px;
+    }
+
     section.skills .tech-stack > ul > li li {
-        font-size: 15px
+        font-size: 15px;
     }
 
     section.skills .tech-stack > ul > li {
-        margin: 0 0 0 20px
+        margin: 0 0 0 20px;
     }
 }
 
 @media screen and (max-width: 540px) {
+    section.skills {
+        padding: 10px 30px;
+    }
+
     section.skills .tech-stack > ul > li li {
-        font-size: 15px
+        font-size: 15px;
     }
 
     section.skills .tech-stack h4 {
         font-size: 15px;
-        line-height: 18px
+        line-height: 18px;
     }
 
     section.skills .tech-stack > ul > li {
-        margin: 0 0 8px 20px
+        margin: 0 0 8px 20px;
     }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (width: 500px) {
     section.skills {
-        padding: 0px 30px;
+        padding: 0 30px;
+        margin: -2px auto;
     }
 }
 
 @media screen and (max-width: 485px) {
-
     section.skills .tech-stack > ul > li li {
-        font-size: 13px
+        font-size: 13px;
     }
 
     section.skills .tech-stack h4 {
         font-size: 15px;
-        line-height: 25px
+        line-height: 25px;
     }
 
     section.skills .tech-stack > ul > li {
-        margin: 0 0 5px 20px
+        margin: 0 0 5px 20px;
     }
 }
 
@@ -442,34 +462,34 @@ section.skills .tech-stack > ul > li li {
     border-radius: 10px;
     box-shadow: 1px 1px 1px #cfcfcf;
     z-index: 2;
-    background: rgba(245, 255, 250, .5)
+    background: rgba(245, 255, 250, .5);
 }
 
 .page .prize:hover {
-    box-shadow: 1px 1px 8px 1px #cfcfcf
+    box-shadow: 1px 1px 8px 1px #cfcfcf;
 }
 
 .page2 .prize h2 {
-    text-align: center
+    text-align: center;
 }
 
 .page2 .prize > table tr {
     display: block;
-    margin: 10px 0
+    margin: 10px 0;
 }
 
 .page2 .prize > table tr th {
     width: 200px;
-    text-shadow: 1px 1px 1px skyblue
+    text-shadow: 1px 1px 1px skyblue;
 }
 
 .page2 .prize > table tr td {
-    text-shadow: 1px 1px 1px #1af34854
+    text-shadow: 1px 1px 1px rgba(26, 243, 72, .2);
 }
 
 @media screen and (max-width: 992px) {
     .page2 .prize {
-        width: 800px
+        width: 800px;
     }
 }
 
@@ -481,28 +501,49 @@ section.skills .tech-stack > ul > li li {
     }
 
     .page2 .prize > table tr {
-        margin: 0
+        margin: 0;
+    }
+
+    .page2 .prize > table tr th {
+        width: 175px;
     }
 }
 
 @media screen and (max-width: 540px) {
     .page2 .prize {
-        width: 500px
+        width: 460px
+    }
+
+    .page2 .prize > table tr th {
+        width: 80px;
+        padding-right: 20px;
+    }
+}
+
+@media screen and (width: 500px) {
+    .page2 .prize {
+        width: 376px;
+    }
+
+    .page2 .prize > table tr th {
+        width: 64px;
+        padding-right: 8px;
     }
 }
 
 @media screen and (max-width: 485px) {
     .page2 .prize {
-        width: 300px
+        width: 280px;
+        padding-top: 0;
     }
 
     .page2 .prize > table tr th {
-        width: 0;
-        padding-right: 5px
+        width: 60px;
+        padding-right: 5px;
     }
 
     .page2 .prize > table tr td {
-        font-size: 13px
+        font-size: 13px;
     }
 }
 
@@ -513,7 +554,7 @@ section.skills .tech-stack > ul > li li {
     width: 15px;
     height: 200px;
     z-index: 2;
-    margin-top: -100px
+    margin-top: -100px;
 }
 
 .dots::before {
@@ -522,7 +563,7 @@ section.skills .tech-stack > ul > li li {
     display: block;
     width: 7px;
     height: 200px;
-    border-right: 1px dashed #8c7576
+    border-right: 1px dashed #8c7576;
 }
 
 .dots ol {
@@ -531,7 +572,7 @@ section.skills .tech-stack > ul > li li {
     flex-direction: column;
     justify-content: space-between;
     width: 100%;
-    height: 100%
+    height: 100%;
 }
 
 .dots ol li {
@@ -539,7 +580,7 @@ section.skills .tech-stack > ul > li li {
     width: 14px;
     height: 14px;
     border-radius: 50%;
-    background: #dddedc
+    background: #dddedc;
 }
 
 .dots ol li span {
@@ -555,7 +596,7 @@ section.skills .tech-stack > ul > li li {
     background: rgba(0, 0, 0, .7);
     border-top-left-radius: 3px;
     border-bottom-left-radius: 3px;
-    color: white
+    color: white;
 }
 
 .dots ol li span:after {
@@ -566,7 +607,7 @@ section.skills .tech-stack > ul > li li {
     height: 0;
     border-top: 12px solid transparent;
     border-left: 12px solid rgba(0, 0, 0, .7);
-    border-bottom: 12px solid transparent
+    border-bottom: 12px solid transparent;
 }
 
 .dots ol li::before {
@@ -579,7 +620,7 @@ section.skills .tech-stack > ul > li li {
     margin-top: -3px;
     margin-left: -3px;
     border-radius: 50%;
-    background: #337ab7
+    background: #337ab7;
 }
 
 @keyframes sploosh {
@@ -589,7 +630,7 @@ section.skills .tech-stack > ul > li li {
         -webkit-box-shadow: 0 0 0 0 rgba(255, 143, 184, 1);
         -ms-box-shadow: 0 0 0 0 rgba(255, 143, 184, 1);
         -moz-box-shadow: 0 0 0 0 rgba(255, 143, 184, 1);
-        background: rgba(255, 255, 255, 0.7)
+        background: rgba(255, 255, 255, 0.7);
     }
     100% {
         box-shadow: 0 0 0 10px rgba(255, 143, 184, 0);
@@ -597,7 +638,7 @@ section.skills .tech-stack > ul > li li {
         -webkit-box-shadow: 0 0 0 10px rgba(255, 143, 184, 0);
         -moz-box-shadow: 0 0 0 10px rgba(255, 143, 184, 0);
         -ms-box-shadow: 0 0 0 10px rgba(255, 143, 184, 0);
-        background: rgba(255, 255, 255, 1)
+        background: rgba(255, 255, 255, 1);
     }
 }
 
@@ -608,7 +649,7 @@ section.skills .tech-stack > ul > li li {
         -webkit-box-shadow: 0 0 0 0 rgba(255, 143, 184, 1);
         -ms-box-shadow: 0 0 0 0 rgba(255, 143, 184, 1);
         -moz-box-shadow: 0 0 0 0 rgba(255, 143, 184, 1);
-        background: rgba(255, 255, 255, 0.7)
+        background: rgba(255, 255, 255, 0.7);
     }
     100% {
         box-shadow: 0 0 0 10px rgba(255, 143, 184, 0);
@@ -616,7 +657,7 @@ section.skills .tech-stack > ul > li li {
         -webkit-box-shadow: 0 0 0 10px rgba(255, 143, 184, 0);
         -moz-box-shadow: 0 0 0 10px rgba(255, 143, 184, 0);
         -ms-box-shadow: 0 0 0 10px rgba(255, 143, 184, 0);
-        background: rgba(255, 255, 255, 1)
+        background: rgba(255, 255, 255, 1);
     }
 }
 
@@ -627,7 +668,7 @@ section.skills .tech-stack > ul > li li {
         -webkit-box-shadow: 0 0 0 0 rgba(255, 143, 184, 1);
         -ms-box-shadow: 0 0 0 0 rgba(255, 143, 184, 1);
         -moz-box-shadow: 0 0 0 0 rgba(255, 143, 184, 1);
-        background: rgba(255, 255, 255, 0.7)
+        background: rgba(255, 255, 255, 0.7);
     }
     100% {
         box-shadow: 0 0 0 10px rgba(255, 143, 184, 0);
@@ -635,7 +676,7 @@ section.skills .tech-stack > ul > li li {
         -webkit-box-shadow: 0 0 0 10px rgba(255, 143, 184, 0);
         -moz-box-shadow: 0 0 0 10px rgba(255, 143, 184, 0);
         -ms-box-shadow: 0 0 0 10px rgba(255, 143, 184, 0);
-        background: rgba(255, 255, 255, 1)
+        background: rgba(255, 255, 255, 1);
     }
 }
 
@@ -646,7 +687,7 @@ section.skills .tech-stack > ul > li li {
         -webkit-box-shadow: 0 0 0 0 rgba(255, 143, 184, 1);
         -ms-box-shadow: 0 0 0 0 rgba(255, 143, 184, 1);
         -moz-box-shadow: 0 0 0 0 rgba(255, 143, 184, 1);
-        background: rgba(255, 255, 255, 0.7)
+        background: rgba(255, 255, 255, 0.7);
     }
     100% {
         box-shadow: 0 0 0 10px rgba(255, 143, 184, 0);
@@ -654,7 +695,7 @@ section.skills .tech-stack > ul > li li {
         -webkit-box-shadow: 0 0 0 10px rgba(255, 143, 184, 0);
         -moz-box-shadow: 0 0 0 10px rgba(255, 143, 184, 0);
         -ms-box-shadow: 0 0 0 10px rgba(255, 143, 184, 0);
-        background: rgba(255, 255, 255, 1)
+        background: rgba(255, 255, 255, 1);
     }
 }
 
@@ -665,7 +706,7 @@ section.skills .tech-stack > ul > li li {
         -webkit-box-shadow: 0 0 0 0 rgba(255, 143, 184, 1);
         -ms-box-shadow: 0 0 0 0 rgba(255, 143, 184, 1);
         -moz-box-shadow: 0 0 0 0 rgba(255, 143, 184, 1);
-        background: rgba(255, 255, 255, 0.7)
+        background: rgba(255, 255, 255, 0.7);
     }
     100% {
         box-shadow: 0 0 0 10px rgba(255, 143, 184, 0);
@@ -673,7 +714,7 @@ section.skills .tech-stack > ul > li li {
         -webkit-box-shadow: 0 0 0 10px rgba(255, 143, 184, 0);
         -moz-box-shadow: 0 0 0 10px rgba(255, 143, 184, 0);
         -ms-box-shadow: 0 0 0 10px rgba(255, 143, 184, 0);
-        background: rgba(255, 255, 255, 1)
+        background: rgba(255, 255, 255, 1);
     }
 }
 
@@ -682,12 +723,12 @@ section.skills .tech-stack > ul > li li {
     -webkit-animation: sploosh 1.5s cubic-bezier(0.165, 0.84, 0.44, 1) infinite;
     -moz-animation: sploosh 1.5s cubic-bezier(0.165, 0.84, 0.44, 1) infinite;
     -ms-animation: sploosh 1.5s cubic-bezier(0.165, 0.84, 0.44, 1) infinite;
-    -o-animation: sploosh 1.5s cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+    -o-animation: sploosh 1.5s cubic-bezier(0.165, 0.84, 0.44, 1) infinite;
 }
 
 .dots ol li:hover {
     cursor: pointer;
-    background: white
+    background: white;
 }
 
 .footer {
@@ -700,5 +741,5 @@ section.skills .tech-stack > ul > li li {
     background: rgba(0, 0, 0, .5);
     color: #dddedc;
     text-align: center;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, .5)
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .5);
 }
