@@ -2,4 +2,4 @@
 
 这是我的个人简历。
 
-欢迎访问  <a href="http://qq1033715415.github.io">qq1033715415.github.io</a>
+欢迎访问  [qq1033715415.github.io](http://qq1033715415.github.io)
