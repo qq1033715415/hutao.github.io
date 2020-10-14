@@ -494,6 +494,7 @@ section.skills .tech-stack > ul > li li {
 @media screen and (max-width: 992px) {
     .page2 .prize {
         width: 800px;
+        height: 520px;
     }
 }
 
@@ -501,7 +502,7 @@ section.skills .tech-stack > ul > li li {
     .page2 .prize {
         transform: translateY(-240px);
         width: 500px;
-        height: 525px;
+        height: 580px;
     }
 
     .page2 .prize > table tr {
@@ -527,6 +528,7 @@ section.skills .tech-stack > ul > li li {
 @media screen and (width: 500px) {
     .page2 .prize {
         width: 385px;
+        height: 650px;
     }
 
     .page2 .prize > table tr th {
