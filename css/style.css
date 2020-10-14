@@ -336,6 +336,10 @@ section.skills {
     box-sizing: border-box;
 }
 
+section.skills a {
+    color: #000;
+}
+
 section.skills > h2 {
     text-align: center;
     margin-bottom: 5px;
@@ -522,7 +526,7 @@ section.skills .tech-stack > ul > li li {
 
 @media screen and (width: 500px) {
     .page2 .prize {
-        width: 376px;
+        width: 385px;
     }
 
     .page2 .prize > table tr th {
