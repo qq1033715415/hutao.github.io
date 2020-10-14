@@ -329,7 +329,7 @@ section.skills {
     position: relative;
     max-width: 940px;
     margin: 0 auto;
-    padding: 30px 30px;
+    padding: 19px 30px;
     z-index: 2;
     background-color: rgba(245, 255, 250, .5);
     box-shadow: 0 1px 5px 0 rgba(0, 0, 0, .5);
@@ -397,7 +397,7 @@ section.skills .tech-stack > ul > li li {
 
 @media screen and (max-width: 670px) {
     section.skills {
-        padding: 25px 30px;
+        padding: 15px 30px;
     }
 
     section.skills .tech-stack > ul > li li {
@@ -452,9 +452,9 @@ section.skills .tech-stack > ul > li li {
 
 .page2 .prize {
     position: relative;
-    top: 50%;
+    top: 37%;
     width: 940px;
-    height: 370px;
+    height: 480px;
     margin: 0 auto;
     padding: 30px 30px;
     transform: translateY(-185px);
@@ -497,7 +497,7 @@ section.skills .tech-stack > ul > li li {
     .page2 .prize {
         transform: translateY(-240px);
         width: 500px;
-        height: 430px;
+        height: 525px;
     }
 
     .page2 .prize > table tr {
